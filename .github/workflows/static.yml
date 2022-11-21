@@ -31,7 +31,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - run: echo hello > hello.txt
+      - run: echo hello > index.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
